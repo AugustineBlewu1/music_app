@@ -1,0 +1,13 @@
+type Mutation {
+  CreateUser(
+    email: String
+    name: String
+    password: String
+    uuid: uuid
+  ): CreateUserOutput
+}
+
+type CreateUserOutput {
+  affected_rows: Int!
+}
+

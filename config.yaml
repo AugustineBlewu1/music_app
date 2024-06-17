@@ -1,0 +1,7 @@
+version: 3
+endpoint: https://genuine-jawfish-24.hasura.app
+admin_secret: 'yLKbtBySNSIZj7AckTijBbLwxomRIrR3GvrJXKgp40vQDc68rhh5R7FQZMKQ3wNE'
+metadata_directory: metadata
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: http://localhost:3000
